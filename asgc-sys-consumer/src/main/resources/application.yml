@@ -10,7 +10,7 @@ dubbo:
   application:
     name: dubbo-sys-test-consumer
   registry:
-    address: zookeeper://127.0.0.1:2181
+    address: N/A
   reference:
     id: demoService
     interface: com.asgc.sys.facade.test.service.DemoService

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/asgc.iml" filepath="$PROJECT_DIR$/asgc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-framework/asgc-framework-core/asgc-core.iml" filepath="$PROJECT_DIR$/asgc-framework/asgc-framework-core/asgc-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-framework/asgc-framework-ex/asgc-ex.iml" filepath="$PROJECT_DIR$/asgc-framework/asgc-framework-ex/asgc-ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-framework/asgc-framework.iml" filepath="$PROJECT_DIR$/asgc-framework/asgc-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-framework/asgc-framework-core/asgc-framework-core.iml" filepath="$PROJECT_DIR$/asgc-framework/asgc-framework-core/asgc-framework-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-framework//asgc-framework-core.iml" filepath="$PROJECT_DIR$/asgc-framework//asgc-framework-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-framework/asgc-framework-core/asgc-framework-core (1).iml" filepath="$PROJECT_DIR$/asgc-framework/asgc-framework-core/asgc-framework-core (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-framework/asgc-framework-ex/asgc-framework-ex.iml" filepath="$PROJECT_DIR$/asgc-framework/asgc-framework-ex/asgc-framework-ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-framework/asgc-framework-util/asgc-framework-util.iml" filepath="$PROJECT_DIR$/asgc-framework/asgc-framework-util/asgc-framework-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-sys-consumer/asgc-sys-consumer.iml" filepath="$PROJECT_DIR$/asgc-sys-consumer/asgc-sys-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-sys-facade/asgc-sys-facade.iml" filepath="$PROJECT_DIR$/asgc-sys-facade/asgc-sys-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-sys-parent/asgc-sys-parent.iml" filepath="$PROJECT_DIR$/asgc-sys-parent/asgc-sys-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-sys-provider/asgc-sys-provider.iml" filepath="$PROJECT_DIR$/asgc-sys-provider/asgc-sys-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asgc-framework/asgc-framework-util/asgc-util.iml" filepath="$PROJECT_DIR$/asgc-framework/asgc-framework-util/asgc-util.iml" />
+    </modules>
+  </component>
+</project>

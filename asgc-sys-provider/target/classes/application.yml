@@ -1,0 +1,26 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: asgc-sys-provider
+  swagger:
+    base-package: com.asgc
+
+dubbo:
+  scan:
+    base-packages: com.asgc
+  application:
+    name: dubbo_provider
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  service:
+    interface: com.asgc.sys.facade.test.service.DemoService
+    ref: demoService
+    version: 1.0.0
+  service:
+    interface: com.asgc.sys.facade.test.service.DemoService2
+    ref: demoService2
+    version: 1.0.0

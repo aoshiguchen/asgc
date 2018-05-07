@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="asgc-framework-core" />
+        <module name="asgc-framework-ex" />
+        <module name="asgc-framework-util" />
+        <module name="asgc-sys-consumer" />
+        <module name="asgc-sys-facade" />
+        <module name="asgc-sys-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asgc-framework" target="1.8" />
+      <module name="asgc-framework-core" target="1.8" />
+      <module name="asgc-framework-ex" target="1.8" />
+      <module name="asgc-framework-util" target="1.8" />
+      <module name="asgc-sys-consumer" target="1.8" />
+      <module name="asgc-sys-facade" target="1.8" />
+      <module name="asgc-sys-parent" target="1.8" />
+      <module name="asgc-sys-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -11,8 +11,8 @@
     <dubbo:application name="dubbo_provider"  />
 
      <!--使用zookeeper注册中心暴露服务地址-->
-     <dubbo:registry address="zookeeper://127.0.0.1:2181" />
-    <!--<dubbo:registry address="N/A" />-->
+     <!--<dubbo:registry address="zookeeper://127.0.0.1:2181" />-->
+    <dubbo:registry address="N/A" />
 
 
     <!--用dubbo协议在20880端口暴露服务-->

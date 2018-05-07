@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349653fb-e39f-46c3-9afa-4ede124900ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asgc-sys-consumer/pom.xml" afterPath="$PROJECT_DIR$/asgc-sys-consumer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asgc-sys-consumer/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/asgc-sys-consumer/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asgc-sys-consumer/target/classes/application.yml" afterPath="$PROJECT_DIR$/asgc-sys-consumer/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asgc-sys-provider/asgc-sys-provider.iml" afterPath="$PROJECT_DIR$/asgc-sys-provider/asgc-sys-provider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asgc-sys-provider/pom.xml" afterPath="$PROJECT_DIR$/asgc-sys-provider/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asgc-sys-provider/src/main/resources/dubbo.xml" afterPath="$PROJECT_DIR$/asgc-sys-provider/src/main/resources/dubbo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asgc-sys-provider/target/classes/application.yml" afterPath="$PROJECT_DIR$/asgc-sys-provider/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asgc-sys-provider/target/classes/dubbo.xml" afterPath="$PROJECT_DIR$/asgc-sys-provider/target/classes/dubbo.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/asgc-sys-parent/target/" />
@@ -436,7 +427,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="去掉zk依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="去掉zk依赖" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

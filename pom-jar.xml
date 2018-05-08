@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.asgc.sys</groupId>
+        <artifactId>asgc-sys-parent</artifactId>
+        <version>1.0.0</version>
+        <relativePath>./asgc-sys-parent</relativePath>
+    </parent>
+
+    <artifactId>jar</artifactId>
+    <name>${project.artifactId}</name>
+    <packaging>pom</packaging>
+    <url>http://maven.apache.org</url>
+
+    <modules>
+        <module>asgc-sys-parent</module>
+        <module>asgc-sys-facade</module>
+    </modules>
+
+
+    <!--热部署支持-->
+    <!-- -javaagent:C:/springloaded-1.2.8.RELEASE.jar -noverify -->
+
+    <!--依赖jar-->
+    <!-- clean install -P build -f pom-jar.xml -->
+
+    <!--1、tomcat运行，命令行指定端口号、上下文路径 -->
+    <!-- clean package -P build -Dmaven.tomcat.port=8091 -Dmaven.tomcat.path=/  tomcat7:run-war-only -f pom-asgc-sys-provider.xml -->
+    <!-- clean package -P build -Dmaven.tomcat.port=8090 -Dmaven.tomcat.path=/  tomcat7:run-war-only -f pom-asgc-sys-consumer.xml -->
+
+    <!--2、tomcat运行，命令行不指定端口号、上下文路径，取自tomcat插件配置参数 -->
+    <!-- clean package -P build tomcat7:run-war-only -f pom-asgc-sys-provider.xml -->
+    <!-- clean package -P build tomcat7:run-war-only -f pom-asgc-sys-consumer.xml -->
+
+    <!--3、jetty运行，命令行指定端口号 -->
+    <!-- -Djetty.port=8091 jetty:run -f pom-asgc-sys-provider.xml -->
+    <!-- -Djetty.port=8090 jetty:run -f pom-asgc-sys-consumer.xml -->
+
+    <!--4、jetty运行，命令行不指定端口号、上下文路径，取自jetty插件配置参数-->
+    <!-- jetty:run -f pom-asgc-sys-provider.xml -->
+    <!-- jetty:run -f pom-asgc-sys-consumer.xml -->
+</project>

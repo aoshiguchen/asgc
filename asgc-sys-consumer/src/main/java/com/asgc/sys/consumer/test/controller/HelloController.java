@@ -10,28 +10,28 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HelloController {
 
-    @Reference
-    private DemoService demoService;
-
-    @Reference
-    private DemoService2 demoService2;
+//    @Reference
+//    private DemoService demoService;
+//
+//    @Reference
+//    private DemoService2 demoService2;
 
     @RequestMapping("/hello")
     @ResponseBody
     public String hello(){
 
-        return "hello";
+        return "consumer hello";
     }
 
-    @RequestMapping("/sayHello")
-    @ResponseBody
-    public String sayHello() {
-        return demoService.sayHello("consumer");
-    }
-
-    @RequestMapping("/sayBye")
-    @ResponseBody
-    public String sayBye(){
-        return demoService2.bye("consumer");
-    }
+//    @RequestMapping("/sayHello")
+//    @ResponseBody
+//    public String sayHello() {
+//        return demoService.sayHello("consumer");
+//    }
+//
+//    @RequestMapping("/sayBye")
+//    @ResponseBody
+//    public String sayBye(){
+//        return demoService2.bye("consumer");
+//    }
 }

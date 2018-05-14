@@ -1,3 +1,1 @@
-com\asgc\sys\consumer\test\Application.class
-com\asgc\sys\consumer\test\config\DubboConfig.class
 com\asgc\sys\consumer\test\controller\HelloController.class

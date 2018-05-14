@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="asgc-sys-provider:war">
+    <output-path>$PROJECT_DIR$/asgc-sys-provider/target</output-path>
+    <root id="archive" name="asgc-sys-provider.war">
+      <element id="artifact" artifact-name="asgc-sys-provider:war exploded" />
+    </root>
+  </artifact>
+</component>

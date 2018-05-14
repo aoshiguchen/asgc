@@ -22,4 +22,7 @@
 
     <!-- 静态资源 -->
     <mvc:resources mapping="/index.html" location="/index.html" />
+
+    <!--加在spring-sevlet中而不是spring-context中，避免在跟上下文中，无法注解引用dubbo服务的情况-->
+    <import resource="classpath*:spring/spring-dubbo.xml" />
 </beans>

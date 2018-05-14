@@ -8,16 +8,14 @@
     http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!--  提供方应用信息，用于计算依赖关系-->
-    <dubbo:application name="dubbo_provider"  />
+    <dubbo:application name="dubbo_consumer"  />
 
     <!--使用zookeeper注册中心暴露服务地址-->
     <dubbo:registry address="zookeeper://127.0.0.1:2181" />
-    <!--<dubbo:registry address="N/A" />-->
+    <dubbo:registry address="N/A" />
 
+    <dubbo:consumer timeout="30000" />
 
-    <!--用dubbo协议在20880端口暴露服务-->
-    <dubbo:protocol name="dubbo" port="20880" />
+    <dubbo:annotation package="com.asgc.sys.consumer" />
 
-    <!--配置包扫描路径-->
-    <dubbo:annotation package="com.asgc.sys.provider"/>
 </beans>

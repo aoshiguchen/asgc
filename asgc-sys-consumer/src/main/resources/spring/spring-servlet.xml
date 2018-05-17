@@ -11,8 +11,10 @@
     <!-- 启动注解驱动的Spring MVC功能，注册请求url和注解POJO类方法的映射-->
     <mvc:annotation-driven />
 
-    <!-- 启动包扫描功能，以便注册带有@Controller、@Service、@repository、@Component等注解的类成为spring的bean -->
-    <context:component-scan base-package="com.asgc.sys.consumer"/>
+    <!-- 启动包扫描功能 -->
+    <context:component-scan base-package="com.asgc.sys.consumer" use-default-filters="false">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+    </context:component-scan>
 
     <!-- 对模型视图名称的解析，在请求时模型视图名称添加前后缀 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -24,5 +26,6 @@
     <mvc:resources mapping="/index.html" location="/index.html" />
 
     <!--加在spring-sevlet中而不是spring-context中，避免在跟上下文中，无法注解引用dubbo服务的情况-->
-    <import resource="classpath*:spring/spring-dubbo.xml" />
+    <!--<import resource="classpath:spring/spring-dubbo.xml" />
+    <import resource="classpath:spring/spring-properties.xml" />-->
 </beans>

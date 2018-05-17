@@ -23,6 +23,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/webapp" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/profile/1dev" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/profile/3prd" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/profile/2test" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
